@@ -26,5 +26,4 @@ X_future = X_future.reshape(-1,1) # Print the transpose matrix
 future_predict = regr.predict(X_future)
 plt.plot(X_future, future_predict)
 
-
 plt.show()
